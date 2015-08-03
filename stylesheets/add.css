@@ -1,0 +1,94 @@
+body {
+  height: 870px;
+}
+
+#inputs {
+  position: absolute;
+  background: rgb(255, 255, 236);
+  top: 170px;
+  height: 700px;
+  width: 1200px;
+  left: 110px;
+}
+
+#inputs #values h2 {
+  position: absolute;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#inputs #values {
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+#inputs #values #title, #image, #genre, #download {
+  position: absolute;
+  font-size: 25px;
+  width: 380px;
+  left: 230px;
+}
+
+#inputs #values #titlecontainer {
+  width: 180px;
+
+}
+
+#inputs #values #titlecontainer h3 {
+  text-align: right;
+  margin-top: 50px;
+}
+
+#inputs #values #title {
+  bottom: 630px;
+}
+
+#inputs #values #image {
+  bottom: 560px;
+}
+
+#inputs #values #download {
+  bottom: 340px;
+}
+
+#inputs #values #genre {
+  bottom: 415px;
+}
+
+#inputs #values #desc {
+  position: relative;
+  right: 117px;
+  bottom: 40px;
+}
+
+#inputs #values #mode {
+  position: relative;
+  left: 123px;
+  bottom: 375px;
+  margin-left: 90px;
+}
+
+#inputs #values #single {
+  position: relative;
+  left: 230px;
+  bottom: 410px;
+}
+
+#inputs #values #multi {
+  position: relative;
+  left: 340px;
+  bottom: 443px;
+}
+
+#inputs #values #both {
+  position: relative;
+  left: 450px;
+  bottom: 477px;
+}
+
+#inputs #values #submit {
+  position: relative;
+  right: 600px;
+  bottom: -40px;
+}

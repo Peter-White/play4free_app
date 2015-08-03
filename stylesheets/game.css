@@ -1,0 +1,68 @@
+body {
+  height: 1060px;
+}
+
+#gamecontainer {
+  position: absolute;
+  background: rgb(255, 255, 236);
+  top: 170px;
+  width: 1200px;
+  left: 110px;
+  height: 900px
+}
+
+#gamecontainer #imgcontainer {
+  position: absolute;
+  background-size: contain;
+  width: 430px;
+  height: 430px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  top: 50px;
+  left: 50px;
+}
+
+#gamecontainer #gamedetails {
+  position: absolute;
+  top: 50px;
+  left: 480px;
+  background-color: lightgrey;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-bottom: 31px;
+  width: 600px;
+}
+
+#gamecontainer #gamedetails a {
+  font-size: 30px;
+}
+
+#gamecontainer #gamedetails h1{
+  padding-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#gamecontainer #gamedetails h2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#gamecontainer #gamedetails a {
+  padding-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#gamecontainer #description {
+  position: absolute;
+  top: 480px;
+  background-color: #FFE066;
+  font-size: 25px;
+  left: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 1050px;
+  height: 375px;
+  font-family: 'Open Sans', sans-serif;
+}

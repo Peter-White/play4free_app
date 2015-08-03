@@ -1,0 +1,55 @@
+body {
+  height: 1050px;
+}
+
+#freeGames ul li {
+  border-style: solid;
+  border-width: 5px;
+  margin-bottom: 25px;
+  background: yellow;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#freeGames ul li #title {
+  position: absolute;
+  font-size: 20px;
+  left: 60px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#freeGames ul li #date {
+  position: absolute;
+  font-size: 20px;
+  left: 1040px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#freeGames ul {
+  position: relative;
+  padding-right: 40px;
+  padding-top: 70px;
+}
+
+#freeGames {
+  max-width: 100%;
+  background: rgb(255, 255, 236);
+  width: 1200px;
+  margin-left: 100px;
+  margin-top: 55px;
+}
+
+#freeGames .Date {
+  position: absolute;
+  left: 1085px;
+  top: 180px;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+#freeGames .Title {
+  position: absolute;
+  left: 150px;
+  top: 180px;
+  font-family: 'Droid Sans', sans-serif;
+}

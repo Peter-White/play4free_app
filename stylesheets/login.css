@@ -1,0 +1,52 @@
+#logincontainer {
+  position: absolute;
+  background: rgb(255, 255, 236);
+  top: 170px;
+  height: 620px;
+  width: 1200px;
+  left: 110px;
+}
+
+#logincontainer #login {
+  position: absolute;
+  margin-top: 60px;
+}
+
+#logincontainer #login #Username, #Password {
+  position: absolute;
+  font-size: 20px;
+  width: 500px;
+  left: 40px;
+}
+
+#logincontainer #login #submit {
+  position: absolute;
+  left: 40px;
+}
+
+#logincontainer #login label {
+  position: absolute;
+  left: 40px;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#logincontainer #login #passwordlabel {
+  position: absolute;
+  top: 100px;
+}
+
+#logincontainer #login #Username {
+  position: absolute;
+  top: 40px;
+}
+
+#logincontainer #login #Password {
+  position: absolute;
+  top: 140px;
+}
+
+#logincontainer #submit {
+  position: absolute;
+  top: 210px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Browse Games - Play4Free</title>
+  <!-- Copy to other pages -->
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/games.css">
+  <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!-- Paste In Pages Wanted -->
+<header id="header">
+  <img src="../stylesheets/D-Pad.png" height="80px" id="logo" alt="logo">
+  <h1>PLAY4FREE</h1>
+  <div id="github" onClick="location.href='https://github.com/Peter-White/play4free'">
+    <p>Github<p>
+  </div>
+  <div id="logsign">
+  <div id="line1"></div>
+  <div id="line2"></div>
+
+      <div id="login">
+        <h3>Login</h3>
+      </div>
+      <div id="signin">
+        <h3>Sign In</h3>
+      </div>
+        <div id="B">
+        <h3>Games</h3>
+      </div>
+      <div id="A">
+        <h3>Add</h3>
+      </div>
+
+    <div id="buttoncontainer"></div>
+      <button id="login" onClick="location.href='login.html'"></button>
+      <button id="signin" onClick="location.href='register.html'"></button>
+      <div id="B-boarder"></div>
+      <button id="B" onClick="location.href='games.html'"></button>
+      <div id="A-boarder"></div>
+  </div>
+</header>
+
+<div style="height:880px;overflow:auto;" id="freeGames">
+<h1 class="Title">Title</h1>
+<h1 class="Date">Date Added</h1>
+ <ul style="list-style-type:none" id="gameslist"></ul>
+</div>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script src="../scripts/games_app.js" type="text/javascript"></script>
+  <script src="../scripts/game.js" type="text/javascript"></script>
+  <script src="../scripts/login.js" type="text/javascript"></script>
+</body>
+</html>

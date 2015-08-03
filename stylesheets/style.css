@@ -1,0 +1,188 @@
+@media (max-width: 992px) {
+  .item-container {
+    height: 100%;
+  }
+}
+
+body {
+  background: rgb(160, 32, 0);
+}
+
+#header {
+  position: relative;
+  top: 10px;
+  background-color: green;
+  right: 8px;
+  width: 1440px;
+  height: 100px;
+  background: rgb(160, 32, 0);
+  border-bottom-style: solid;
+  border-color: #FFE066;
+  border-width: 7px;
+}
+
+#header #logsign {
+  position: absolute;
+  right: 230px;
+  top: -7px;
+  background-color: #FFE066;
+  height: 95px;
+  width: 470px;
+  border-radius: 10px;
+}
+
+#header #logsign #login, #signin {
+  position: absolute;
+  top: 55px;
+  width: 80px;
+  height: 20px;
+  background-color: black;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+#header #logsign #login {
+  left: 165px;
+}
+
+#header #logsign #signin {
+  left: 65px;
+}
+
+#header #logsign #A, #B {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: black;
+  top: 42px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+#header #logsign #B-boarder, #A-boarder {
+  position: absolute;
+  background: rgb(160, 32, 0);
+  height: 48px;
+  width: 48px;
+  border-radius: 100px;
+  top: 38px;
+}
+
+#header #logsign #B-boarder {
+  left: 300px;
+}
+
+#header #logsign #A-boarder {
+  left: 376px;
+}
+
+#header #logsign #A {
+  left: 380px;
+}
+
+#header #logsign #B {
+  left: 304px;
+}
+
+#header #logsign #buttoncontainer {
+  position: absolute;
+  height: 40px;
+  width: 210px;
+  left: 50px;
+  top: 45px;
+  border-radius: 100px;
+  background-color: rgb(160, 32, 0)
+}
+
+#header h1 {
+  position: absolute;
+  top: -35px;
+  color: #FFE066;
+  font-family: 'Abel', sans-serif;
+  font-size: 60px;
+  left: 130px;
+}
+
+#header #github {
+  position: absolute;
+  right: 65px;
+  top: 50px;
+  font-family: 'Oswald', sans-serif;
+  color: #FFE066;
+  font-size: 30px;
+  background: rgb(160, 32, 0);
+  background-size: 80px 60px;
+  width: 90px;
+  height: 80px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+#header #logsign #line1, #line2 {
+  position: absolute;
+  height: 2px;
+  width: 470px;
+  background-color: black;
+}
+
+#header #logsign #line1 {
+  top: 65px;
+}
+
+#header #logsign #line2 {
+  top: 70px;
+}
+
+#header #signin h3, #login h3 {
+  position: absolute;
+  bottom: 15px;
+}
+
+#header #signin h3, #login h3 {
+  position: absolute;
+  bottom: 7px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+  font-size: 23px;
+}
+
+#header #logo {
+  position: absolute;
+  left: 30px;
+}
+
+#header #signin h3 {
+  left: 5px;
+}
+
+#header #login h3 {
+  left: 12px;
+}
+
+#header #A h3, #B h3 {
+  position: absolute;
+  bottom: 27px;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  color: #FFE066;
+  background-color: black;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+#header #B h3 {
+  width: 75px;
+}
+
+#header #A h3 {
+  width: 50px;
+}
+
+#header #A h3{
+  left: -12px;
+}
+
+#header #B h3{
+  left: -25px;
+}

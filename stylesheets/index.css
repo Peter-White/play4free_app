@@ -1,0 +1,27 @@
+body {
+  height: 890px;
+}
+
+#about {
+  position: absolute;
+  background: rgb(255, 255, 236);
+  width: 1300px;
+  left: 65px;
+  top: 170px;
+}
+
+#about #welcome {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+#about #info p, ol {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#about #info {
+  width: 1200px;
+  padding-left: 40px;
+}
